@@ -46,7 +46,7 @@ def filter_repeated_notes(music_data, max_interval=10):
     return filtered_data
 
 # Path to the directory containing MIDI files
-path = r"C:\Users\ASUS\OneDrive\Desktop\Automated Music (ML Pro)\file"
+path = r"Give path of your file"
 
 # Read all the filenames
 files = [i for i in os.listdir(path) if i.endswith(".mid") or i.endswith(".midi")]
